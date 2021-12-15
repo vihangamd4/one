@@ -10,7 +10,7 @@ df = pandas.DataFrame(data)
 
 
 st.title('Frist streamlit app')
-st.subheader('Bla bla bla')
+st.subheader('Vihanga')
 st.write('''This is my frist web app
 Enjoy it!
 ''')
@@ -18,3 +18,6 @@ Enjoy it!
 st.write(df)
 st.line_chart(df)
 st.area_chart(df)
+
+myslider = st.slider('celcius')
+st.write(myslider, 'in Fahrenheit is' ,myslider * 9/5 +32)
