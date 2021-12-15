@@ -2,8 +2,8 @@ import streamlit as st
 import pandas
 
 data = {
-  "series_1":[50,20,10,30,60] , 
-  "series_2":[30,90,100,200,40]
+  "test_1":[50,20,10,30,60] , 
+  "test_2":[30,90,100,200,40]
 }
 
 df = pandas.DataFrame(data)
@@ -17,3 +17,4 @@ Enjoy it!
 
 st.write(df)
 st.line_chart(df)
+st.area_chart(df)
