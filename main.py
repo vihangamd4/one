@@ -2,15 +2,15 @@ import streamlit as st
 import pandas
 
 data = {
-  "test_1":[50,20,10,30,60] , 
-  "test_2":[30,90,100,200,40]
+  "Today Temperature":[30,27,31,32,28] , 
+  "Yesterday Temperature":[28,29,31,32,33]
 }
 
 df = pandas.DataFrame(data)
 
 
 st.title('Frist streamlit app')
-st.subheader('Vihanga')
+st.subheader('Temperature')
 st.write('''This is my frist web app
 Enjoy it!
 ''')
